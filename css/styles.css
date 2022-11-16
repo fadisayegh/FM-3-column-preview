@@ -1,0 +1,131 @@
+/********************Tag Selectors********************/
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  padding: 10px 40px 0 40px;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  padding: 10px 40px 0 40px;
+}
+
+img {
+  padding: 40px 40px 0 40px;
+}
+
+/********************Class Selectors********************/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 44%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.main {
+  width: 900px;
+  position: absolute;
+  left: 27%;
+  top: 30%;
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  position: absolute;
+  height: 450px;
+  width: 300px;
+  border-radius: 10px 0 0 10px;
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  position: absolute;
+  left: 300px;
+  height: 450px;
+  width: 300px;
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  position: absolute;
+  left: 600px;
+  height: 450px;
+  width: 300px;
+  border-radius: 0 10px 10px 0;
+}
+
+.btn-1 {
+  -webkit-border-radius: 40;
+  -moz-border-radius: 40;
+  border-radius: 40px;
+  border: solid 3px white;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(31, 77%, 52%);
+  font-size: 14px;
+  background: hsl(0, 100%, 100%);
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  left: 45px;
+  top: 70px;
+}
+
+.btn-1:hover {
+  background: transparent;
+  text-decoration: none;
+  color: hsl(0, 100%, 100%);
+}
+
+.btn-2 {
+  -webkit-border-radius: 40;
+  -moz-border-radius: 40;
+  border-radius: 40px;
+  border: solid 3px white;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(184, 100%, 22%);
+  font-size: 14px;
+  background: hsl(0, 100%, 100%);
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  left: 45px;
+  top: 70px;
+}
+
+.btn-2:hover {
+  background: transparent;
+  text-decoration: none;
+  color: hsl(0, 100%, 100%);
+}
+
+.btn-3 {
+  -webkit-border-radius: 40;
+  -moz-border-radius: 40;
+  border-radius: 40px;
+  border: solid 3px white;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(179, 100%, 13%);
+  font-size: 14px;
+  background: hsl(0, 100%, 100%);
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  left: 45px;
+  top: 70px;
+}
+
+.btn-3:hover {
+  background: transparent;
+  text-decoration: none;
+  color: hsl(0, 100%, 100%);
+}
