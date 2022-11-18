@@ -108,7 +108,6 @@ p {
 }
 .suv {
   background-color: hsl(184, 100%, 22%);
-  position: relative;
   height: 450px;
   width: 300px;
 }
